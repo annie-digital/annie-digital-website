@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+	<ul class="navbar"> 
+		<li> <a class="navitem" href="index.html"> HOME </a> </li>
+		<li> <a class="navitem" href="mejo221/about/index.html"> MEJO 221 </a> </li>
+	</ul>
+	<br>
+	<h1> YOU GOT THE WRONG URL, FAM! </h1>
+	<p> or (more likely) i messed up the web design <p>
+	<br>
+	<p> navigate back to the homepage and try again! <p>
+</body>
+</html>
