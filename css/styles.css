@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face{
+	font-family: "Heavitas";
+	src: url(../fonts/Heavitas.ttf);
+}
+
+@font-face {
+	font-family: "SugarcubesRegular";
+	src: url(../fonts/SugarcubesRegular.ttf);
+}
+
+a {
+	color: #266918
+}
+
+h1, h2, h3, h4 {
+	font-family: "Heavitas";
+	text-align: center;
+}
+
+li {
+	font-family: "Heavitas";
+	font-style: italic;
+	padding-bottom: 5px;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+p {
+	font-family: "SugarcubesRegular";
+	text-align: justify;
+	font-style: bold;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #FFFFFF;
+}
+
+.navitem {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navitem:hover {
+	color: #266918;
+}
+
+.navlist {
+	padding: 0px;
+}
+
+.dropdown {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.girlcode {
+	color: #00A3AF;
+}
+
+.girlcode:hover {
+	color:#FFD169;
+}
+
+.text {
+	font-family: "SugarcubesRegular";
+	font-style: bold;
+	padding-bottom: 5px;
+}
