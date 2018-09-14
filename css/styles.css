@@ -6,84 +6,114 @@
 	src: url(../fonts/Heavitas.ttf);
 }
 
-@font-face {
-	font-family: "SugarcubesRegular";
-	src: url(../fonts/SugarcubesRegular.ttf);
-}
-
 a {
-	color: #266918
-}
-
-h1, h2, h3, h4 {
-	font-family: "Heavitas";
-	text-align: center;
-}
-
-li {
-	font-family: "Heavitas";
-	font-style: italic;
-	padding-bottom: 5px;
-}
-
-img {
-	display: block;
-	margin: auto;
-}
-
-p {
-	font-family: "SugarcubesRegular";
-	text-align: justify;
-	font-style: bold;
-}
-
-.navbar {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #FFFFFF;
-}
-
-.navitem {
-	float: left;
-	display: block;
-	color: black;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-
-.navitem:hover {
 	color: #266918;
+	text-decoration:none;
 }
 
-.navlist {
-	padding: 0px;
+a:hover {
+	color: #266918;
+	color: rgba(38, 105, 24, 0.5);
 }
 
-.dropdown {
-	float: left;
-	display: block;
-	color: black;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Heavitas";
+	text-align: justify;
 }
 
-.girlcode {
+#tamponrun {
+	color:#AE161C;
+	color: rgba(174, 22, 28, 1);
+}
+
+#tamponrun:hover {
+	color:#AE161C;
+	color: rgba(174, 22, 28, 0.5);
+}
+
+#girlcode {
 	color: #00A3AF;
 }
 
-.girlcode:hover {
+#girlcode:hover {
 	color:#FFD169;
 }
 
-.text {
-	font-family: "SugarcubesRegular";
-	font-style: bold;
-	padding-bottom: 5px;
+#sophie {
+	color:#f851a1;
+}
+
+#sophie:hover {
+	color:#f851a1;
+	color: rgba(248, 81, 161, 0.5);
+}
+
+#robertson {
+	color:rgba(128, 128, 128, 1);
+}
+
+#robertson:hover {
+	color:rgba(128, 128, 128, 0.5);
+}
+
+#unc {
+	color:rgba(75, 156, 211, 1);
+}
+
+#unc:hover {
+	color:rgba(75, 156, 211, 0.5);
+}
+
+#microsoft {
+	color: rgba(246, 93, 53, 1);
+}
+
+#microsoft:hover {
+	color: rgba(246, 93, 53, 0.5);
+}
+
+#twitter {
+	color: rgba(29, 161, 242, 1);
+}
+
+#twitter:hover {
+	color: rgba(29, 161, 242, 0.5);
+}
+
+#linkedin {
+	color: rgba(0, 119, 181, 1);
+}
+
+#linkedin:hover {
+	color: rgba(0, 119, 181, 0.5);
+}
+
+#github {
+	color: rgba(110, 84, 148, 1);
+}
+
+#github:hover {
+	color: rgba(110, 84, 148, 0.5);
+}
+
+body {
+	position: relative;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+	padding: 10px;
+}
+
+#about-me {
+	width: 650px;
+}
+
+#me-img {
+	height: 250px;
+	float:left;
+	padding-right: 30px;
 }
