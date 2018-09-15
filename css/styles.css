@@ -7,23 +7,26 @@
 }
 
 @media only screen and (max-width: 600px) {
-    main {
-			/* background-color: blue; */
-			padding: 50px;
-			transform: translate(-50%, 25%) !important;
-    }
+	main {
+		/* background-color: blue; */
+		padding: 50px;
+		transform: translate(-50%, 25%) !important;
+  }
 
-		#about-me {
-			max-width: 350px;
-		}
+	#about-me {
+		max-width: 350px;
+	}
 
-		#me-img {
-			float: none !important;
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-		}
+	#name {
+		text-align: center;
+	}
 
+	#me-img {
+		float: none !important;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 body {
