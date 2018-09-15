@@ -54,6 +54,12 @@ body {
 	position: relative;
 }
 
+body::before {
+	background:	url(/images/powerpuff.jpg) no-repeat -9999px -9999px
+						url(/images/powerpuff-pout.jpg) no-repeat -9999px -9999px
+						url(/images/powerpuff-talk.jpg) no-repeat -9999px -9999px
+}
+
 main {
   position: absolute;
   top: 50%;
@@ -70,9 +76,9 @@ main {
 }
 
 #me-img {
+	float: left;
 	height: 250px;
-	float:left;
-	padding-right: 30px;
+	padding-right: 25px;
 	margin-bottom: 200px;
 }
 
