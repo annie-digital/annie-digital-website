@@ -29,6 +29,22 @@
 	}
 }
 
+@media only screen and (max-width: 340px) {
+	main {
+		/* background-color: blue; */
+		padding: 50px;
+		transform: translateX(-50%) !important;
+	}
+
+	#about-me {
+		max-width: 290px;
+	}
+
+	#me-img {
+		height: 225px !important;
+	}
+}
+
 body {
 	position: relative;
 }
